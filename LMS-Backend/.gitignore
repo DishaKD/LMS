@@ -1,0 +1,122 @@
+# Build Folders
+
+bin/
+obj/
+out/
+
+# Visual Studio / Rider / IDE files
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+*.sln.ide
+
+# Rider
+
+.idea/
+*.sln.iml
+
+# ASP.NET / IIS
+
+wwwroot/
+
+# NuGet packages
+
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Visual Studio Code
+
+.vscode/
+
+# Logs
+
+*.log
+logs/
+*.tlog
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# DotCover
+
+*.dotCover
+
+# ReSharper
+
+_ReSharper*/
+*.DotSettings.user
+
+# User-specific files
+
+*.userprefs
+
+# Entity Framework Migrations
+
+Migrations/
+~*.*
+
+# Publish outputs
+
+publish/
+*.Publish.xml
+~publish/
+~publishTemp/
+~deploy/
+~deployTemp/
+~.publishsettings
+~*.publishproj
+~*.deployproj
+
+# Backup & cache
+
+*.backup
+*.cache
+*.dbmdl
+
+# Rider caches
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# SQL Server LocalDB
+
+*.mdf
+*.ldf
+
+# ASP.NET temporary files
+
+App_Data/
+
+# Others
+
+*.scc
+*.pdb
+*.mdb
+*.pidb
+*.svclog
+*.user
+*.aps
+*.resharper
+*.resharper.user
+~$*
+
+# Azure Functions
+
+local.settings.json
