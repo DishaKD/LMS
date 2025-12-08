@@ -1,8 +1,7 @@
-// services/axiosInstance.ts
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5295/api", // replace with your backend URL
+  baseURL: "http://localhost:5295/api",
   headers: {
     "Content-Type": "application/json",
   },
