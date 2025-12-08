@@ -1,4 +1,3 @@
-// services/bookService.ts
 import axiosInstance from "./axiosInstance";
 import type { Book, CreateBookDto } from "../types/Book";
 
