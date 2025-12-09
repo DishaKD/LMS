@@ -39,13 +39,17 @@ A full-stack CRUD-based Library Management System built using **.NET 8 Web API**
 
 # 🛠 Backend Setup
 
-### **1️⃣ Install Dependencies**
 ```bash
+# 1️⃣ Restore Dependencies
 dotnet restore
 
-
-
+# 2️⃣ Add Initial Migration
 dotnet ef migrations add InitialCreate
+
+# 3️⃣ Update Database
 dotnet ef database update
+
+# 4️⃣ Run the Application
 dotnet run
+
 
