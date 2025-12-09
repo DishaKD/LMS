@@ -10,7 +10,6 @@ A full-stack CRUD-based Library Management System built using **.NET 8 Web API**
 - .NET 8 Web API  
 - Entity Framework Core  
 - SQLite  
-- Repository & Service Layer Architecture  
 
 ### **Frontend**
 - React + Vite  
@@ -33,10 +32,18 @@ A full-stack CRUD-based Library Management System built using **.NET 8 Web API**
 - Add books  
 - Edit books  
 - Delete books  
-- Built with React Router + Tailwind  
 
 ---
 
-## 📂 Folder Structure
 
-### **Backend**
+---
+
+# 🛠 Backend Setup
+
+### **1️⃣ Install EF Core Tools**
+```bash
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+dotnet run
+
