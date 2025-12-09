@@ -37,7 +37,7 @@ A full-stack CRUD-based Library Management System built using **.NET 8 Web API**
 
 ---
 
-# 🛠 Backend Setup
+# Backend Setup
 
 ```bash
 # Naviagte to Backend
@@ -54,6 +54,20 @@ dotnet ef database update
 
 # Run the Application
 dotnet run
+
+```
+
+# Frontend Setup
+
+```bash
+# Naviagte to Backend
+cd library-frontend
+
+# Install Dependencies
+npm install
+
+# Run the Application
+npm run dev
 
 ```
 
