@@ -7,7 +7,7 @@ A full-stack CRUD-based Library Management System built using **.NET 8 Web API**
 ## 🚀 Tech Stack
 
 ### **Backend**
-- .NET 8 Web API  
+- .NET 10  
 - Entity Framework Core  
 - SQLite  
 
@@ -15,7 +15,6 @@ A full-stack CRUD-based Library Management System built using **.NET 8 Web API**
 - React + Vite  
 - TypeScript  
 - Tailwind CSS  
-- Axios  
 
 ---
 
@@ -40,9 +39,12 @@ A full-stack CRUD-based Library Management System built using **.NET 8 Web API**
 
 # 🛠 Backend Setup
 
-### **1️⃣ Install EF Core Tools**
+### **1️⃣ Install Dependencies**
 ```bash
-dotnet tool install --global dotnet-ef
+dotnet restore
+
+
+
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 dotnet run
