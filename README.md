@@ -1,6 +1,6 @@
 # 📚 Library Management System
 
-A full-stack CRUD-based Library Management System built using **.NET 8 Web API**, **Entity Framework Core**, **SQLite**, **React**, **Vite**, **TypeScript**, and **Tailwind CSS**.
+A full-stack CRUD-based Library Management System built using **.NET 10 Web API**, **Entity Framework Core**, **SQLite**, **React**, **Vite**, **TypeScript**, and **Tailwind CSS**.
 
 ---
 
